@@ -7,7 +7,7 @@ public class Comissionado extends Empregado{
 
 	public Comissionado(String nome, String fone, double salarioFixo,
 			double comissao, int vendas) {
-		
+
 		super(nome, fone);
 		this.salarioFixo = salarioFixo;
 		this.comissao = comissao;
